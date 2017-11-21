@@ -1,0 +1,7 @@
+{
+  "name": "notificaiton-example",
+  "short_name": "notification-example",
+  "start_url": "./index.html",
+  "display": "standalone",
+}
+
