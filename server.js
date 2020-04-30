@@ -1,11 +1,9 @@
 const path = require('path')
 const rootPath = path.normalize(__dirname)
-console.log(rootPath)
 const webPush = require('web-push');
 
-
-webPush.setGCMAPIKey('AAAAmXDC0ag:APA91bFVUYyiCE6hvJq7X5g2CHBdIfsmsPgbECwhYRfgX_DBqO5nByeVehzdaM4HMzQ4y39FIXWJBnb_BbmCYXAXWjSWwx6IEIglS09tSxJTUf6PkrJCB-p7BQXyZNrg1ZPWi5iq76Jj');
-
+//FIREBASE API_KEY
+webPush.setGCMAPIKey('')
 const bodyParser = require('body-parser')
 const express = require('express')
 const app = express()
